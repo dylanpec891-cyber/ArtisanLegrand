@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://artisan-legrand-pecsi.vercel.app/sitemap.xml
