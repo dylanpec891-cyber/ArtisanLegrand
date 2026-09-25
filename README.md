@@ -2,7 +2,9 @@
 
 Site vitrine multipage en français pour un artisan plombier à Paris 18e.
 
-Site : https://artisan-legrand.vercel.app
+Site principal : https://artisanlegrand.fr
+
+Adresse Vercel : https://artisan-legrand.vercel.app
 
 ## Structure
 HTML statique, CSS et JavaScript natif. Aucune dépendance à installer et aucun build requis pour déployer les pages déjà générées. Les dossiers correspondent aux routes du site.
@@ -16,7 +18,7 @@ Déployer le contenu de ce dossier avec Vercel, preset « Other », sans command
 - Téléphone et e-mail, puis boutons d’appel et de contact.
 - Identité juridique, SIRET, mentions légales et informations réglementaires applicables.
 - Zone exacte d’intervention hors Paris 18e, tarifs et conditions.
-- Domaine personnalisé et Search Console, si souhaités.
+- Search Console et fiche établissement, si souhaitées.
 
 Aucun faux avis, certification ou délai garanti n’est affiché. Les visuels sont des illustrations générées par IA, pas des photos de chantiers réels.
 

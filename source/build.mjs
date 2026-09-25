@@ -2,7 +2,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import {fileURLToPath} from 'node:url';
 const root=fileURLToPath(new URL('../',import.meta.url));
-const origin=process.env.SITE_URL||'https://artisan-legrand.vercel.app';
+const origin=process.env.SITE_URL||'https://artisanlegrand.fr';
 const arrow='<span aria-hidden="true">↗</span>';
 const icons={drop:'<path d="M12 3s-7 8-7 12a7 7 0 0 0 14 0c0-4-7-12-7-12Z"/><path d="M8 15a4 4 0 0 0 4 4"/>',pipe:'<path d="M4 3v7a4 4 0 0 0 4 4h8v7M1 3h6M13 21h6M4 7H1m3 0h3M12 11v6"/>',waves:'<path d="M2 7c3-4 5 4 8 0s5 4 8 0 4 0 4 0M2 13c3-4 5 4 8 0s5 4 8 0 4 0 4 0M2 19c3-4 5 4 8 0s5 4 8 0 4 0 4 0"/>',clock:'<circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/>',pin:'<path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="3"/>',check:'<path d="m5 12 4 4L20 5"/>',tool:'<path d="m14 6 4 4 3-3a7 7 0 0 1-9 9l-6 6-4-4 6-6a7 7 0 0 1 9-9Z"/>'};
 const icon=(name)=>`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${icons[name]||icons.tool}</svg>`;
