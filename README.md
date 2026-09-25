@@ -2,7 +2,7 @@
 
 Site vitrine multipage en français pour un artisan plombier à Paris 18e.
 
-Site : https://artisan-legrand-pecsi.vercel.app
+Site : https://artisan-legrand.vercel.app
 
 ## Structure
 HTML statique, CSS et JavaScript natif. Aucune dépendance à installer et aucun build requis. Les dossiers correspondent aux routes du site.
